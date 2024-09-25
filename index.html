@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Vidhya Kadam </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- CSS for My Skills Section -->
+<style>
+  .my-skills {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  .my-skills .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .skill-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+  }
+  .skill-item:hover {
+    transform: translateY(-5px);
+  }
+</style>
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#"> </a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Project</a></li>
+
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+       
+        <a href="https://www.linkedin.com/in/vidhya-kadam-4a2386324/"><i class="fab fa-linkedin-in"></i></a>
+
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Vidhya</div>
+       <div class="text-three">full-stack developer</div>
+       <div class="text-four">From India</div>
+     </div>
+     <div class="button">
+       <button>   <a href = "mailto: kadamvidhya758@gmail.com">Hire Me</button></a>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="Images\vidhya.jpg" alt="">
+    </div>
+    <div class="right">
+      <p>Passionate Software Developer with 2.4 years of experience in full-stack development, specializing in Java, Spring Boot, and ReactJS, with a strong background in backend development, building efficient, secure APIs, handling databases, and creating responsive user interfaces using ReactJS and CSS to ensure seamless user experiences, proven ability to deliver high-quality software solutions in fast-paced environments with a focus on clean code, performance optimization, and adopting new technologies, ready to contribute to innovative projects and collaborate effectively with cross-functional teams</p>
+      <div class="button">
+        <button>
+
+            <a class="" href="images/Vidhya-Kadam.pdf" title=""<i class="fa fa-download" download></i> Download CV</a>
+    </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+<!-- My Skill Section Start -->
+<section class="my-skills" id="skills">
+  <div class="content">
+    <h2 class="title">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <span>JAVA</span>
+      </div>
+       <div class="skill-item">
+        <span>Java 8</span>
+      </div>
+      <div class="skill-item">
+        <span>Spring Boot</span>
+      </div>
+      <div class="skill-item">
+        <span>Hibernate/JPA</span>
+      </div>
+      <div class="skill-item">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-item">
+        <span>JUnit</span>
+      </div>
+      <div class="skill-item">
+        <span>Git/GitHub</span>
+      </div>
+      <div class="skill-item">
+        <span>AWS</span>
+      </div>
+      <div class="skill-item">
+        <span>PostgreSql</span>
+      </div>
+      <div class="skill-item">
+        <span>RestFul API</span>
+      </div>
+      <div class="skill-item">
+        <span>Microservices</span>
+      </div>
+      <div class="skill-item">
+        <span>ReactJS</span>
+      </div>
+      <div class="skill-item">
+        <span>HTML</span>
+      </div>
+      <div class="skill-item">
+        <span>CSS</span>
+      </div>
+      <div class="skill-item">
+        <span>CI/CD</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Projects</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic"> LoanPro</div>
+       <p align="justify"> LoanPro” developed RESTful APIs for key loan management features such as loan applications, approval workflows, and reporting. I ensured code quality and scalability through rigorous testing and optimization, while also implementing security measures to safeguard sensitive financial data. Using Spring Boot, I automated and improved the lending process for financial institutions. Additionally, I designed an intuitive interface for both borrowers and administrators, and worked closely with the team to ensure seamless integration and maintainable code.</p>
+<div class="button">
+  <button>
+
+      
+</button>
+</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+         <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">EFFIWARE</div>
+       <p align="justify">For the EFFIWARE project using Spring Boot, I designed and developed critical features to enhance the reliability and scalability of warehouse software. I utilized Spring Boot to streamline and optimize warehouse operations, creating a user-friendly interface for managing inventory, orders, shipments, and resources. I implemented robust solutions to adapt to evolving warehouse needs, with a strong focus on improving overall operational efficiency and ensuring system performance and flexibility..</p>
+        <div class="button">
+          <button>
+
+        </button>
+        </div>
+
+     </div>
+       <div class="box">
+         <div class="icon">
+       <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">FinCorpX</div>
+       <p align="justify">For the FinCorpX project, I provided a comprehensive solution for companies to manage their banking needs, supporting essential banking functions such as wire payments, ACH, and account transfers. I ensured compliance with industry standards and business requirements, offering a variety of configurations to handle daily business operations for banks and corporate users. FinCorpX serves as a critical product in the corporate banking sector and is undergoing migration to a next-generation platform as part of ongoing modernization efforts, with plans to modernize the remaining CBS products following the successful migration of FinCorpX.</p>
+<div class="button">
+  <button>
+
+   
+</button>
+</div>
+
+    
+   </div>
+ </section>
+
+
+
+
+
+
+
+<!-- Footer Section Start -->
+
+
+ </div>
+  <footer id="footer">
+
+    <a href="https://www.linkedin.com/in/vidhya-kadam-4a2386324/"> <i class="foot social-icon fab fa-linkedin-in"></i></a>
+
+    <div style="">
+    
+      
+   
+    </div>
+
+  </footer>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
